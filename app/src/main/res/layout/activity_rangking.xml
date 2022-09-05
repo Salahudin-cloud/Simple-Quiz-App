@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Rangking"
+    android:background="@color/bg_ACtivity"
+    >
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+           <TextView
+               android:id="@+id/labelScoreboard"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Scoreboard"
+               android:textSize="50sp"
+               android:textStyle="bold"
+               android:layout_marginTop="30dp"
+               android:textColor="@color/white"
+               android:fontFamily="@font/cartoonist_hand"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintRight_toRightOf="parent"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Username"
+               android:textColor="@color/white"
+               android:textSize="25sp"
+               android:textStyle="bold"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="20dp"
+               android:fontFamily="@font/cartoonist_hand"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/labelScoreboard"
+               />
+
+           <TextView
+               android:id="@+id/labelScore"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Score"
+               android:textColor="@color/white"
+               android:textSize="25sp"
+               android:textStyle="bold"
+               android:layout_marginTop="20dp"
+               android:layout_marginRight="20dp"
+               android:fontFamily="@font/cartoonist_hand"
+               app:layout_constraintRight_toRightOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/labelScoreboard"
+               />
+
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/RecyleList"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:layout_constraintTop_toBottomOf="@id/labelScore"
+               />
+
+           <ImageButton
+               android:id="@+id/backToMenu"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:layout_marginTop="25dp"
+               android:background="@null"
+               android:layout_marginLeft="20dp"
+               app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               />
+
+           <ImageButton
+               android:id="@+id/deleteListRank"
+               android:layout_width="50dp"
+               android:layout_height="60dp"
+               android:layout_marginTop="25dp"
+               android:background="@null"
+               android:layout_marginRight="20dp"
+               app:srcCompat="@drawable/ic_baseline_delete_24"
+               app:layout_constraintRight_toRightOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               />
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

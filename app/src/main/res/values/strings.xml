@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <!-- Question 1 -->
+    <string name="question1">
+        Who Invented Linus ?
+    </string>
+    <!-- Question 1 (choose) A -->
+    <string name="chooseQuestion1A">
+            A.Linus Torvalds
+        </string>
+    <!-- Question 1 (choose) B -->
+    <string name="chooseQuestion1B">
+            B.Bill Gates
+        </string>
+    <!-- Question 1 (choose) C -->
+    <string name="chooseQuestion1C">
+            C.Isacc Newton
+        </string>
+
+    <!-- Question 2 -->
+    <string name="question2">
+        SQL stands for ?
+    </string>
+    <!-- Question 2 (choose) A -->
+    <string name="chooseQuestion2A">
+            A.Strict Query Language
+        </string>
+    <!-- Question 2 (choose) B -->
+    <string name="chooseQuestion2B">
+            B.Structured Query Language
+        </string>
+    <!-- Question 2 (choose) C -->
+    <string name="chooseQuestion2C">
+            C.String Query Language
+        </string>
+
+    <!-- Question 3 -->
+    <string name="question3">
+        When was Java created ?
+    </string>
+    <!-- Question 3 (choose) A -->
+    <string name="chooseQuestion3A">
+            A.May 1995
+        </string>
+    <!-- Question 3 (choose) B -->
+    <string name="chooseQuestion3B">
+            B.June 1995
+        </string>
+    <!-- Question 3 (choose) C -->
+    <string name="chooseQuestion3C">
+            C.September 1995
+        </string>
+
+
+</resources>

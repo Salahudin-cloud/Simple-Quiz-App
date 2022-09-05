@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Question_2"
+    android:background="@color/bg_ACtivity"
+    >
+
+    <View
+        android:id="@+id/viewQuestion2"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/bg_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/labelQuestion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 2 :"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/cartoonist_hand"
+        app:layout_constraintTop_toTopOf="@id/viewQuestion2"
+        app:layout_constraintLeft_toLeftOf="@id/viewQuestion2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/labelQuestion2"
+        android:text="@string/question2"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/cartoonist_hand"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="@id/viewQuestion2"
+        app:layout_constraintRight_toRightOf="@id/viewQuestion2"
+        />
+
+    <Button
+        android:id="@+id/chooseQuestion2A"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:backgroundTint="@color/bg_button"
+        android:layout_marginTop="100dp"
+        android:text="@string/chooseQuestion2A"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewQuestion2"
+        />
+
+    <Button
+        android:id="@+id/chooseQuestion2B"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/bg_button"
+        android:text="@string/chooseQuestion2B"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chooseQuestion2A"
+        />
+
+    <Button
+        android:id="@+id/chooseQuestion2C"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/bg_button"
+        android:text="@string/chooseQuestion2C"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chooseQuestion2B"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
